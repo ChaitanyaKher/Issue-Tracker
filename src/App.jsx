@@ -1,7 +1,7 @@
 const continents = ['Africa', 'America', 'Asia', 'Australia', 'Europe'];
 
-const helloContinents = Array.from(continents, c => `Hello ${c}!\n`);
-const message = helloContinents.join('<br />');
+const helloContinents = Array.from(continents, c => `Hello ${c}!`);
+const message = helloContinents.join(' ');
 
 const element = (
     <div title="Outer Div">
