@@ -46,6 +46,14 @@ var issues = [{
   created: new Date('01-11-2021'),
   due: new Date('10-02-2022'),
   title: 'Submit button disappears if long text is present'
+}, {
+  id: 3,
+  status: 'Unassigned',
+  owner: undefined,
+  effort: 19,
+  created: new Date('01-11-2021'),
+  due: new Date('10-02-2022'),
+  title: 'Submit button disappears if long text is present'
 }];
 
 var IssueFilter = /*#__PURE__*/function (_React$Component) {
