@@ -107,4 +107,4 @@ var IssueList = /*#__PURE__*/function (_React$Component4) {
 }(React.Component);
 
 var element = /*#__PURE__*/React.createElement(IssueList, null);
-React.createElement(element, document.getElementById('contents'));
+ReactDOM.render(element, document.getElementById('contents'));
